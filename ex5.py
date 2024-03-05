@@ -63,7 +63,7 @@ print(f"HeapPriorityQueue time: {heap_time}")
 # Answer to exercise 5, question 4:
 # From observating the times, it is clear that HeapPriorityQueue implementation has the better performance from the faster
 # time. This is because of the HeapPriorityQueue uses a binary heap, a complete binary tree and the dequeue operation heapq.heapop.
-# Borth the usage of the binary tree and the dequeue operation have a time complexity of O(log n). Compared to the ListPriorityQueue
+# Both the usage of the binary tree and the dequeue operation have a time complexity of O(log n). Compared to the ListPriorityQueue
 # which uses a linked list, and the enqueue operation involves inserting an element in the correct position, which requires transversing
 # the entire list resulting in a time complexity of O(n). The dequeue operation is simply O(1) as it removes the first element, however
 # when comparing the time complexities of the both implementations, the HeapPriorityQueue will have the better time complexity and thus
