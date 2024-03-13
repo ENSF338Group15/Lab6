@@ -1,6 +1,6 @@
 # 4. Searching a sorted binary tree is faster than searching a shuffled binary tree. Searching a sorted binary
 #    tree ensures that it is balanced, with the search operation time complexity being O(log(n)). The shuffled
-#    tree may be unbalanced, where the search operation may not have a time complexity of O(log(n)).
+#    tree may be unbalanced, so the search operation may not have a time complexity of O(log(n)).
 
 import timeit
 import random
